@@ -8,3 +8,4 @@ tzdata==2023.3
 channels==4.1.0
 requests==2.32.2
 stream-chat==4.16.0
+Pillow

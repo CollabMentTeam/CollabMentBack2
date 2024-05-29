@@ -54,6 +54,11 @@ CORS_ALLOWED_ORIGINS = [
 
 ALLOWED_HOSTS = ['kubernetes.docker.internal', '192.168.1.10' , '*']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://collabmentback2.onrender.com',
+    'https://guileless-jalebi-9d8222.netlify.app'
+]
+
 CORS_ORIGIN_WHITELIST = [
     'http://192.168.1.10:19000',
     'http://192.168.1.10:8081',
